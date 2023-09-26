@@ -18,6 +18,11 @@ text-decoration: none;
 color: black;
 }
 
+body iframe{
+    min-height: 300px;
+    min-width: 550px;
+}
+
 /* header */
 header{
     background-color: white;
@@ -198,12 +203,11 @@ table{
 }
 
 .cavs{
-    text-align: center;
     display: flex;
     flex-direction: column;
     background-color: maroon;
     color: white;
-    align-items: center;
+    align-items: center; 
 }
 
 .cavs img{
@@ -212,8 +216,10 @@ table{
 }
 
 .heat{
+    display: flex;
+    flex-direction: column;
     background-color: #b22222;
-    text-align: center;
+    align-items: center; 
 }
 
 .heat img{
@@ -222,8 +228,10 @@ table{
 }
 
 .laker{
+    display: flex;
+    flex-direction: column;
     background-color: gold;
-    text-align: center;
+    align-items: center; 
 }
 
 .laker img{
