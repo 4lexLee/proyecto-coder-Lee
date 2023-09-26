@@ -138,12 +138,13 @@ footer{
 }
 
 #section-1-log{
+    margin: 0;      
+    padding-right: 0;
     grid-column: 2/3;
 }
 
 #section-1-log img{
-    height: 100%;
-    width: 80%;
+    width: 100%;
 }
 
 #video-grilla{
@@ -159,8 +160,8 @@ footer{
 
 .mvp img{
     padding: 2px;
-    height: 223px;
-    width: 323px;
+    height: 220px;
+    width: 320px;
 }
 
 .leader{
@@ -251,5 +252,9 @@ table{
 @media (max-width:550px){
     .header{
         flex-direction: column;
+    }
+    .logros{
+        margin: 0;
+        padding-left: 2px;
     }
 }
