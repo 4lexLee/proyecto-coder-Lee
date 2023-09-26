@@ -199,13 +199,16 @@ table{
 
 .cavs{
     background-color: maroon;
-    color: white
+    color: white;
+    text-align: center;
 }
 .heat{
-    background-color: red;
+    background-color: #b22222;
+    text-align: center;
 }
 .laker{
     background-color: gold;
+    text-align: center;
 }
 
 /* historia */
