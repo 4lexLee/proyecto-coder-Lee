@@ -198,17 +198,37 @@ table{
 }
 
 .cavs{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     background-color: maroon;
     color: white;
-    text-align: center;
+    align-items: center;
 }
+
+.cavs img{
+    max-height:250px;
+    max-width:400px; 
+}
+
 .heat{
     background-color: #b22222;
     text-align: center;
 }
+
+.heat img{
+    max-height:375px;
+    max-width:250px;
+}
+
 .laker{
     background-color: gold;
     text-align: center;
+}
+
+.laker img{
+    max-height:250px;
+    max-width:400px;
 }
 
 /* historia */
