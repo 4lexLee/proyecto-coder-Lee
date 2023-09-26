@@ -19,8 +19,8 @@ color: black;
 }
 
 body iframe{
-    min-height: 300px;
-    min-width: 550px;
+    height: 150px;
+    width: 350px;
 }
 
 /* header */
@@ -159,9 +159,9 @@ footer{
 }
 
 .mvp img{
-    padding: 20px;
-    height: 300px;
-    width: 400px;
+    padding: 50px;
+    height: 275px;
+    width: 375px;
 }
 
 .leader{
@@ -174,9 +174,9 @@ footer{
 }
 
 .logros img{
-    padding: 20px;
-    height: 300px;
-    width: 400px;
+    padding: 30px;
+    height: 275px;
+    width: 375px;
 }
 /* estadisticas */
 .titulo h1{
