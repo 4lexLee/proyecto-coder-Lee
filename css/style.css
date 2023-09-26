@@ -19,8 +19,10 @@ color: black;
 }
 
 body iframe{
-    height: 200px;
-    width: 350px;
+    display: block;
+    height: 350px;
+    width: 75%;
+    padding: 1cm 1cm;
 }
 
 /* header */
@@ -106,8 +108,6 @@ footer{
 .home-video{
     display: flex;
     justify-content: center;
-    padding-bottom: 1cm;
-    padding-top: 1cm;
 }
 
 .parrafo{
