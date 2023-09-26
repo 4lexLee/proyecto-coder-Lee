@@ -144,7 +144,8 @@ footer{
 }
 
 .mvp{
-    padding: 45px;
+    padding: 20px;
+    text-align: center;
 }
 
 .mvp p{
@@ -153,12 +154,24 @@ footer{
 }
 
 .mvp img{
-    height: 200px;
-    width: 300px;
+    padding: 20px;
+    height: 300px;
+    width: 400px;
 }
 
 .leader{
     text-align: center;
+}
+
+.logros{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logros img{
+    padding: 20px;
+    height: 300px;
+    width: 400px;
 }
 /* estadisticas */
 .titulo h1{
