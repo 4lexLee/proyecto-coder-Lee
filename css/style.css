@@ -170,7 +170,7 @@ footer{
 
 .logros{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .logros img{
