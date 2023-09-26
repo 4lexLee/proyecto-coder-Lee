@@ -18,11 +18,6 @@ text-decoration: none;
 color: black;
 }
 
-#section-1 img{
-    height: 100%;
-    width: 100%;
-}
-
 /* header */
 header{
     background-color: white;
@@ -98,6 +93,11 @@ footer{
     padding: 50px;
 }
 
+#section-1 img{
+    height: 100%;
+    width: 100%;
+}
+
 .home-video{
     display: flex;
     justify-content: center;
@@ -118,6 +118,11 @@ footer{
     text-decoration-line: underline;
 }
 
+.pick p{
+    text-align: left;
+    padding-right: 10px;
+}
+
 .mvp p{
     text-align: center;
 }
@@ -128,6 +133,10 @@ footer{
     grid-template-rows: repeat(2,1fr);
     justify-items: center;
     align-items: center;
+}
+
+#section-1-log{
+    grid-column: 2/3;
 }
 
 #video-grilla{
