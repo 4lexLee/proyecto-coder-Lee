@@ -1,0 +1,26 @@
+footer {
+	@include flex(column, null, null);
+	background-color: $background-color_5;
+	height: 10%;
+	padding: 0.2rem;
+	font-size: $font-size_3;
+}
+.footer-link {
+	width: 7%;
+	h4 {
+		font-size: $font-size_5;
+		color: $color_3;
+		border-bottom: 2px solid white;
+	}
+}
+.social-link {
+	a {
+		color: $color_3;
+		font-weight: 600;
+		padding-right: 10px;
+		transition: all .3s ease;
+		&:hover {
+			color: $color_2;
+		}
+	}
+}

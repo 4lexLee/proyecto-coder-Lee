@@ -1,0 +1,8 @@
+.img-est {
+	padding-top: 1cm;
+	text-align: center;
+}
+.table {
+	@include flex(null, center, center);
+	font-size: $font-size_1;
+}

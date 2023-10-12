@@ -1,0 +1,37 @@
+.cavs {
+	@include flex(column, null, center);
+	background-color: $background-color_2;
+	color: $color_3;
+	text-align: center;
+	p {
+		margin: 30px;
+	}
+	img {
+		max-height: 250px;
+		max-width: 400px;
+	}
+}
+.heat {
+	@include flex(column, null, center);
+	background-color: $background-color_3;
+	text-align: center;
+	p {
+		margin: 30px;
+	}
+	img {
+		max-height: 375px;
+		max-width: 250px;
+	}
+}
+.laker {
+	@include flex(column, null, center);
+	background-color: $background-color_4;
+	text-align: center;
+	p {
+		margin: 30px;
+	}
+	img {
+		max-height: 250px;
+		max-width: 400px;
+	}
+}

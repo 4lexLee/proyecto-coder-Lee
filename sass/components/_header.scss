@@ -1,0 +1,23 @@
+header {
+	@include flex(null, space-between, center);
+	background-color: $background-color_6;
+	min-height: 70px;
+	padding: 10px;
+}
+.header-logo {
+	img {
+		height: 50px;
+		width: 75px;
+	}
+}
+nav {
+	a {
+		font-weight: 600;
+		padding-right: 10px;
+		transition: all .3s ease;
+		&:hover {
+			color: $color_2;
+			margin: 0;
+		}
+	}
+}

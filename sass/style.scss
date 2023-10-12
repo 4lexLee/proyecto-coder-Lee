@@ -1,0 +1,17 @@
+//utilities
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+//components
+@import "./components/header";
+@import "./components/footer";
+
+//views
+@import "./views/home";
+@import "./views/logros";
+@import "./views/estadisticas";
+@import "./views/equipos";
+@import "./views/historia";
+
+//global
+@import"./global/reset";

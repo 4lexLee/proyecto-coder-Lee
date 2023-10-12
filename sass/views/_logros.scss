@@ -1,0 +1,52 @@
+.mvp {
+	p {
+		text-align: center;
+		margin: 0;
+		padding-bottom: 40px;
+	}
+	padding: 5px;
+	text-align: center;
+	img {
+		padding: 2px;
+		height: 220px;
+		width: 320px;
+	}
+}
+
+#grilla-pick {
+	@include grid(repeat(10,1fr), repeat(2,1fr), center, center);
+	text-align: center;
+	p{
+		grid-column: 1/7;
+	}
+}
+
+#section-1-log {
+	margin: 0;
+	padding-right: 0;
+	grid-column: 7/11;
+	img {
+		width: 80%;
+	}
+}
+
+#video-grilla {
+	grid-column: 3/10;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.leader {
+	text-align: center;
+}
+
+.logros {
+	@include flex(null, null, null);
+	flex-wrap: wrap;
+	img {
+		padding: 10px;
+		height: 275px;
+		width: 375px;
+	}
+}
