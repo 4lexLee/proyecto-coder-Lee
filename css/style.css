@@ -1,5 +1,19 @@
 @import "https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap";
+#section-1 img, #section-2, .img-hist-1, #section-1-log {
+  animation: fade-in-left 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -95,6 +109,7 @@ a {
 }
 
 #section-2 {
+  font-size: x-large;
   grid-column: 9/10;
   grid-template-columns: 1/1;
   padding: 50px;
@@ -228,7 +243,27 @@ a {
   max-width: 400px;
 }
 
-.img-hist {
+.img-hist-1 {
+  text-align: center;
+  margin: 20px;
+}
+.img-hist-2 {
+  text-align: center;
+  margin: 20px;
+}
+.img-hist-3 {
+  text-align: center;
+  margin: 20px;
+}
+.img-hist-4 {
+  text-align: center;
+  margin: 20px;
+}
+.img-hist-5 {
+  text-align: center;
+  margin: 20px;
+}
+.img-hist-6 {
   text-align: center;
   margin: 20px;
 }
