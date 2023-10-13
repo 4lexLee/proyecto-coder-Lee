@@ -1,7 +1,6 @@
 header {
 	@include flex(null, space-between, center);
-	background-color: $background-color_6;
-	min-height: 70px;
+	background-color: $color_3;
 	padding: 10px;
 }
 .header-logo {
