@@ -1,12 +1,67 @@
 @import "https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap";
 @import "https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap";
 
-@media (max-width:550px) {
+//Celulares
+@media (max-width:480px) {
+	.img-est{
+		&-2 img{
+			width:250px;
+			height:150px;
+		}
+	}
+	.historia {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	.estadisticas {
+		max-width: 300px;
+		margin: 0 auto;
+	}
 	.header {
 		flex-direction: column;
 	}
 	.logros {
 		margin: 0;
 		padding-left: 2px;
+	}
+}
+
+//Tablet
+@media (min-width:481px){
+	.historia {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.logro {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	 .equipos {
+	 	max-width: 568px;
+		margin: 0 auto;
+	}
+	.estadisticas {
+		max-width: 568px;
+		margin: 0 auto;
+	}
+}
+
+//Escritorio
+@media (min-width:1025px){
+	.historia {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	.logro {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+	 .equipos {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	.estadisticas {
+		max-width: 1000px;
+		margin: 0 auto;
 	}
 }

@@ -1,3 +1,7 @@
+.equipos {
+	max-width: 100%;
+	margin: 0 auto;
+}
 .cavs {
 	@include flex(column, null, center);
 	background-color: $background-color_2;

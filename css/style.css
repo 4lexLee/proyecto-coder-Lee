@@ -77,8 +77,8 @@ body p {
 }
 body iframe {
   display: block;
-  height: 350px;
-  width: 75%;
+  height: 500px;
+  width: 85%;
   padding: 1cm 1cm;
 }
 
@@ -125,6 +125,11 @@ a {
 
 .carousel {
   padding-bottom: 1cm;
+}
+
+.logro {
+  max-width: 1150px;
+  margin: 0 auto;
 }
 
 .mvp {
@@ -184,6 +189,15 @@ a {
   width: 375px;
 }
 
+.estadisticas {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.estadisticas h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
 .img-est {
   padding-top: 1cm;
   text-align: center;
@@ -194,6 +208,11 @@ a {
   justify-content: center;
   align-items: center;
   font-size: x-large;
+}
+
+.equipos {
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .cavs {
@@ -242,6 +261,11 @@ a {
   max-width: 400px;
 }
 
+.historia {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
 .img-hist-1 {
   text-align: center;
   margin: 20px;
@@ -288,13 +312,61 @@ a {
   height: 300px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 480px) {
+  .img-est-2 img {
+    width: 250px;
+    height: 150px;
+  }
+  .historia {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .estadisticas {
+    max-width: 300px;
+    margin: 0 auto;
+  }
   .header {
     flex-direction: column;
   }
   .logros {
     margin: 0;
     padding-left: 2px;
+  }
+}
+@media (min-width: 481px) {
+  .historia {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .logro {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .equipos {
+    max-width: 568px;
+    margin: 0 auto;
+  }
+  .estadisticas {
+    max-width: 568px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1025px) {
+  .historia {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .logro {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .equipos {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .estadisticas {
+    max-width: 1000px;
+    margin: 0 auto;
   }
 }
 
