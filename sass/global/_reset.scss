@@ -2,14 +2,48 @@
 @import "https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap";
 
 //Celulares
-@media (max-width:480px) {
-	.img-est{
+@media only screen and (max-width: 480px){
+	.header {
+		flex-direction: column;
+	}
+	.img-hist{
+		&-1 img{
+			width:180px;
+			height:250px;
+		}
 		&-2 img{
 			width:250px;
-			height:150px;
+			height:180px;
 		}
-	}
+		&-3 img{
+			width:250px;
+			height:180px;
+		}
+		&-4 img{
+			width:250px;
+			height:180px;
+		}
+		&-5 img{
+			width:250px;
+			height:180px;
+		}
+		&-6 img{
+			width:250px;
+			height:300px;
+		}
+	}	
+
 	.historia {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	
+	.logro {
+		max-width: 350px;
+		margin: 0 auto;
+		padding: auto;
+	}
+	.estadisticas {
 		max-width: 300px;
 		margin: 0 auto;
 	}
@@ -17,37 +51,331 @@
 		max-width: 300px;
 		margin: 0 auto;
 	}
-	.header {
-		flex-direction: column;
+	.table{
+		&-1 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-2 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-3 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-4 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-5 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-6 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-7 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-8 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-9 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-10 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-11 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-12 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-13 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-14 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-15 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-16 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-17 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-18 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-19 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+		&-20 table{
+			font-size: $font-size_6;
+			width: 100%;
+		}
+	}
+	.img-est{
+		&-1 img{
+			width:300px;
+			height:180px;
+		}
+		&-2 img{
+			width:200px;
+			height:300px;
+		}
+		&-3 img{
+			width:220px;
+			height:280px;
+		}
+		&-4 img{
+			width:200px;
+			height:300px;
+		}
+		&-5 img{
+			width:200px;
+			height:300px;
+		}
+		&-6 img{
+			width:200px;
+			height:300px;
+		}
+		&-7 img{
+			width:300px;
+			height:180px;
+		}
+		&-8 img{
+			width:200px;
+			height:300px;
+		}
+		&-9 img{
+			width:200px;
+			height:300px;
+		}
+		&-10 img{
+			width:200px;
+			height:300px;
+		}
+		&-11 img{
+			width:200px;
+			height:300px;
+		}
+		&-12 img{
+			width:200px;
+			height:300px;
+		}
+		&-13 img{
+			width:200px;
+			height:300px;
+		}
+		&-14 img{
+			width:200px;
+			height:300px;
+		}
+		&-15 img{
+			width:200px;
+			height:300px;
+		}
+		&-16 img{
+			width:200px;
+			height:300px;
+		}
+		&-17 img{
+			width:200px;
+			height:250px;
+		}
+		&-18 img{
+			width:200px;
+			height:300px;
+		}
+		&-19 img{
+			width:200px;
+			height:300px;
+		}
+		&-20 img{
+			width:300px;
+			height:200px;
+		}
+	}
+	.equipos {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+	.cavs{
+		img {
+		max-height: 250px;
+		max-width: 280px;
+		}
+	}
+	.heat{
+		img {
+		max-height: 400px;
+		max-width: 200px;
+		}
+	}
+	.laker{
+		img {
+		max-height: 250px;
+		max-width: 280px;
+		}
 	}
 	.logros {
+		li{
+			font-size: $font-size_1;
+		}
 		margin: 0;
 		padding-left: 2px;
+		img{
+			width:250px;
+			height:180px;
+		}
 	}
-}
+	}
 
 //Tablet
-@media (min-width:481px){
+@media only screen and (min-width: 481px) {
 	.historia {
 		max-width: 600px;
 		margin: 0 auto;
 	}
 	.logro {
-		max-width: 600px;
+		max-width: 568px;
 		margin: 0 auto;
+	}
+	.logros{
+		justify-content: center;
+		align-items: center;
 	}
 	 .equipos {
 	 	max-width: 568px;
 		margin: 0 auto;
 	}
+	.cavs{
+		img {
+		max-height: 300px;
+		max-width: 500px;
+		}
+	}
+	.heat{
+		img {
+		max-height: 500px;
+		max-width: 300px;
+		}
+	}
+	.laker{
+		img {
+		max-height: 300px;
+		max-width: 500px;
+		}
+	}
 	.estadisticas {
 		max-width: 568px;
 		margin: 0 auto;
 	}
+	.img-est{
+		&-1 img{
+			width:430px;
+			height:280px;
+		}
+		&-2 img{
+			width:250px;
+			height:400px;
+		}
+		&-3 img{
+			width:290px;
+			height:350px;
+		}
+		&-4 img{
+			width:250px;
+			height:400px;
+		}
+		&-5 img{
+			width:250px;
+			height:400px;
+		}
+		&-6 img{
+			width:250px;
+			height:400px;
+		}
+		&-7 img{
+			width:400px;
+			height:250px;
+		}
+		&-8 img{
+			width:250px;
+			height:400px;
+		}
+		&-9 img{
+			width:250px;
+			height:400px;
+		}
+		&-10 img{
+			width:250px;
+			height:400px;
+		}
+		&-11 img{
+			width:250px;
+			height:400px;
+		}
+		&-12 img{
+			width:250px;
+			height:400px;
+		}
+		&-13 img{
+			width:250px;
+			height:400px;
+		}
+		&-14 img{
+			width:250px;
+			height:400px;
+		}
+		&-15 img{
+			width:250px;
+			height:400px;
+		}
+		&-16 img{
+			width:250px;
+			height:400px;
+		}
+		&-17 img{
+			width:300px;
+			height:350px;
+		}
+		&-18 img{
+			width:250px;
+			height:400px;
+		}
+		&-19 img{
+			width:250px;
+			height:400px;
+		}
+		&-20 img{
+			width:400px;
+			height:300px;
+		}
+	}
 }
 
 //Escritorio
-@media (min-width:1025px){
+@media only screen and (min-width: 1025px){
 	.historia {
 		max-width: 1000px;
 		margin: 0 auto;
@@ -56,12 +384,116 @@
 		max-width: 1000px;
 		margin: 0 auto;
 	}
+	.logros{
+		justify-content: center;
+		align-items: center;
+	}
 	 .equipos {
 		max-width: 1200px;
 		margin: 0 auto;
 	}
+	.cavs{
+		img {
+		max-height: 400px;
+		max-width: 600px;
+		}
+	}
+	.heat{
+		img {
+		max-height: 600px;
+		max-width: 400px;
+		}
+	}
+	.laker{
+		img {
+		max-height: 400px;
+		max-width: 600px;
+		}
+	}
 	.estadisticas {
 		max-width: 1000px;
 		margin: 0 auto;
+	}
+	.img-est{
+		&-1 img{
+			width:480px;
+			height:320px;
+		}
+		&-2 img{
+			width:320px;
+			height:480px;
+		}
+		&-3 img{
+			width:320px;
+			height:400px;
+		}
+		&-4 img{
+			width:320px;
+			height:480px;
+		}
+		&-5 img{
+			width:320px;
+			height:480px;
+		}
+		&-6 img{
+			width:320px;
+			height:480px;
+		}
+		&-7 img{
+			width:450px;
+			height:300px;
+		}
+		&-8 img{
+			width:320px;
+			height:480px;
+		}
+		&-9 img{
+			width:320px;
+			height:480px;
+		}
+		&-10 img{
+			width:320px;
+			height:480px;
+		}
+		&-11 img{
+			width:320px;
+			height:480px;
+		}
+		&-12 img{
+			width:320px;
+			height:480px;
+		}
+		&-13 img{
+			width:320px;
+			height:480px;
+		}
+		&-14 img{
+			width:320px;
+			height:480px;
+		}
+		&-15 img{
+			width:320px;
+			height:480px;
+		}
+		&-16 img{
+			width:320px;
+			height:480px;
+		}
+		&-17 img{
+			width:300px;
+			height:350px;
+		}
+		&-18 img{
+			width:320px;
+			height:480px;
+		}
+		&-19 img{
+			width:320px;
+			height:480px;
+		}
+		&-20 img{
+			width:570px;
+			height:450px;
+		}
 	}
 }

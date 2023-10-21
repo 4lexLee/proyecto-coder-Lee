@@ -34,11 +34,11 @@
 	}
 }
 
-#video-grilla {
-	grid-column: 3/10;
+ #video-grilla {
+	grid-column: 1/11;
 	width: 100%;
-	padding: 0;
-	margin: 0;
+	padding: auto;
+ 	margin: auto;
 }
 
 .leader {
@@ -46,6 +46,9 @@
 }
 
 .logros {
+	 li{
+		font-size: $font-size_4;
+	}
 	@include flex(null, null, null);
 	flex-wrap: wrap;
 	img {
