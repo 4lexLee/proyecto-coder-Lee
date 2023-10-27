@@ -89,6 +89,7 @@ a {
 
 .titulo h1 {
   text-decoration-line: underline;
+  text-align: center;
 }
 
 #grilla-1 {
@@ -427,10 +428,6 @@ a {
     max-width: 350px;
     margin: 0 auto;
     padding: auto;
-  }
-  .estadisticas {
-    max-width: 300px;
-    margin: 0 auto;
   }
   .estadisticas {
     max-width: 300px;
